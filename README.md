@@ -4,7 +4,7 @@
 
 **演示边界：** 页面使用虚构客户和本地模拟数据。能力实验室运行的是确定性浏览器逻辑，历史录制仅供阅读；本站不会启动 Next.js、Supabase、Agent worker、WhatsApp 或模型服务，也不会发送真实客户消息。请勿在演示表单中输入真实个人信息或密钥。
 
-打开 [在线演示](https://sxh313.github.io/AiNativeCrm-demo/)。
+打开 [在线演示](https://sxh313.github.io/AiNativeCrm-demo/)；投递 AI 应用开发岗位时，可以直接分享 [Agent–CRM 工作台](https://sxh313.github.io/AiNativeCrm-demo/#/app/ai/workbench)。
 
 ## 展示路径
 
