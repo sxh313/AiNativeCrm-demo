@@ -384,3 +384,26 @@ tbody tr:hover { background: var(--sidebar); }
 .sidebar.collapsed .side-footer span, .sidebar.collapsed .navlabel span, .sidebar.collapsed .hub-link span { display:none; }
 .sidebar.collapsed .navitem { justify-content:center; padding-inline:0; }
 .sidebar.collapsed .navitem.active::before { left:0; }
+
+/* AgentKit inspired pass: light surfaces, compact rhythm and one blue interaction color. */
+:root { --accent:#165DFF; --focus:#165DFF; --border:#E5E6EB; --strong:#C9CDD4; --sidebar:#F7F8FA; --radius:6px; }
+body { font-size:14px; }
+.sidebar { width:232px; background:#F7F8FA; border-right:1px solid #E5E6EB; }
+.brand { height:64px; min-height:64px; padding:0 16px; background:#FFF; border-bottom:1px solid #E5E6EB; font-size:16px; }
+.brand svg { width:28px; height:28px; }
+.brand small { font-size:11px; letter-spacing:.12em; }
+.sidebar nav { padding:16px 10px 18px; }
+.navgroup { margin-bottom:12px; }
+.navlabel { padding:7px 10px 5px; color:#86909C; font-size:12px; font-weight:500; }
+.navitem { min-height:36px; padding:8px 10px; margin:1px 0; border-radius:6px; font-size:14px; color:#4E5969; }
+.navitem svg { width:16px; height:16px; color:#86909C; }
+.navitem:hover { background:#E8F3FF; color:#165DFF; }
+.navitem.active { background:#E8F3FF; color:#165DFF; font-weight:500; }
+.navitem.active::before { left:-10px; top:7px; bottom:7px; width:2px; background:#165DFF; }
+.navitem.active svg { color:#165DFF; }
+.hub-link { padding:6px 10px 6px 36px; color:#86909C; font-size:12px; }
+.sidebottom { padding:8px 10px 10px; background:#FFF; border-top:1px solid #E5E6EB; }
+.side-footer { padding-top:7px; color:#86909C; font-size:11px; }
+.topbar { height:64px; background:#FFF; border-bottom:1px solid #E5E6EB; }
+.demobar { background:#F7F8FA; border-bottom:1px solid #E5E6EB; }
+.panel, .stat-card, .home-hero-flow { border-radius:8px; }
