@@ -4,6 +4,8 @@
 
 这是用于作品展示的静态演示页。可点击浏览 CRM 界面，并在「能力实验室」中逐步体验 Agent 的检索、记忆、审批、重试与评估流程；「真实模型录制」提供已脱敏的历史运行回放。
 
+完整项目说明请参阅主仓库的[项目说明-智营中台](https://github.com/sxh313/AiNativeCrm/blob/main/%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%99%BA%E8%90%A5%E4%B8%AD%E5%8F%B0.md)。
+
 **演示边界：** 页面使用虚构客户和本地模拟数据。能力实验室运行的是确定性浏览器逻辑，历史录制仅供阅读；本站不会启动 Next.js、Supabase、Agent worker、WhatsApp 或模型服务，也不会发送真实客户消息。请勿在演示表单中输入真实个人信息或密钥。
 
 打开 [在线演示](https://sxh313.github.io/AiNativeCrm-demo/)；投递 AI 应用开发岗位时，可以直接分享 [Agent–CRM 工作台](https://sxh313.github.io/AiNativeCrm-demo/#/app/ai/workbench)。
