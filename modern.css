@@ -407,3 +407,29 @@ body { font-size:14px; }
 .topbar { height:64px; background:#FFF; border-bottom:1px solid #E5E6EB; }
 .demobar { background:#F7F8FA; border-bottom:1px solid #E5E6EB; }
 .panel, .stat-card, .home-hero-flow { border-radius:8px; }
+
+/* Final layout contract: the content column owns the remaining width at every breakpoint. */
+.mainwrap { min-width:0; width:calc(100% - 232px); }
+.main { width:100%; }
+@media (min-width: 1440px) {
+  .main { padding-left:40px; padding-right:40px; }
+}
+@media (max-width: 1100px) and (min-width: 681px) {
+  .sidebar { width:216px; }
+  .mainwrap { width:calc(100% - 216px); }
+  .main { padding:22px 24px 34px; }
+  .workbench { grid-template-columns:190px minmax(0,1fr); }
+  .workbench .resultpanel { grid-column:1/-1; }
+}
+@media (max-width: 680px) {
+  .mainwrap { width:100%; }
+  .sidebar, .sidebar.collapsed { width:240px; }
+  .main { padding:20px 14px 32px; }
+  .pagehead { gap:12px; }
+  .pagehead > .row { width:100%; }
+  .pagehead > .row .btn { flex:1; }
+  .stats { gap:8px; }
+  .stat { min-width:0; padding:12px 10px; }
+  .stat strong { font-size:20px; }
+  .home-hero { gap:20px; }
+}
